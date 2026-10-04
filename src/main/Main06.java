@@ -1,6 +1,6 @@
 package main;
 
-public class Main6 {
+public class Main06 {
     public static void main(String[] args) {
         char ch;
         ch = 'a';

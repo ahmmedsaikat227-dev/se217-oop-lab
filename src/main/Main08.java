@@ -1,6 +1,6 @@
 package main;
 
-public class Main8{
+public class Main08{
     public static void main(String[] args) {
         int x;
         x = 5;

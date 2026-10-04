@@ -1,6 +1,6 @@
 package main;
 
-public class Main4 {
+public class Main04 {
     public static void main(String[] args) {
         int x = 22;
         if(x % 2 == 0 && x % 5 == 0){
