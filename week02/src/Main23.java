@@ -1,4 +1,4 @@
-package main
+package main;
 
 public class Main23 {
     public static void main(String[] args) {
