@@ -1,0 +1,10 @@
+package week02;
+
+public class Main36 {
+    public static void main(String[] args) {
+        hello();
+    }
+    static void hello(){
+        System.out.println("Hello!! I am from inside of a function");
+    }
+}
