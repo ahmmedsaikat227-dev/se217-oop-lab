@@ -6,6 +6,7 @@ public class Main07 {
         int age;
         age = 20;
 
+        // Ordered upper bounds keep each age in a single category.
         if(age < 2){
             System.out.println("Infant");
         }else if(age < 10){

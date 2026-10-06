@@ -6,6 +6,7 @@ public class Main35 {
         System.out.println("Program start: ");
         sayHi();
 
+        // Pass two arguments and print the value returned by the method.
         System.out.println("Sum is: " + getSum(10,20));
     }
     static int getSum (int x, int y){

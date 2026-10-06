@@ -5,6 +5,7 @@ public class Main23 {
         // The <= bound reaches index x.length, which is outside the valid indices.
         int[] x = {11, 34, 55, -67, 57};
         
+        // Use i < x.length to avoid accessing beyond the last array element.
         for(int i = 0; i <= x.length; i++){
             System.out.println(x[i]);
         }

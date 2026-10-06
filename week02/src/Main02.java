@@ -12,6 +12,7 @@ public class Main02 {
         z = 'S';
         a = true;
 
+        // Each value is assigned using a literal that matches its variable type.
         System.out.println("The value of x is: " + x);
         System.out.println("The value of y is: " + y);
         System.out.println("The name of z is: " + z);

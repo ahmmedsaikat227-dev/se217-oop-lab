@@ -7,6 +7,7 @@ public class Main38 {
     }
     static void divisors(int num){
         for(int i = 1; i <= num; i++){
+            // Print i only when it divides num evenly.
             if(num % i == 0)
                 System.out.println(i);
         }

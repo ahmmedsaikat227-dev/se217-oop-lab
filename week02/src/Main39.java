@@ -15,6 +15,7 @@ public class Main39 {
         System.out.println("Choice 1 = Add, 2 = Subtract, 3 = Multiply, 4 = Divide");
         System.out.print("Choice: ");
         int choice = sc.nextInt();
+        // Route the selected menu option to its matching calculation.
         switch (choice) {
             case 1:
                 System.out.println(add(x,y));
@@ -46,6 +47,7 @@ public class Main39 {
         return x * y;
     }
     static int div(int x, int y){
+        // Integer division drops any fractional remainder.
         return x / y;
     }
 }

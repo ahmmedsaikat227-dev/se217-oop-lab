@@ -11,6 +11,7 @@ public class Main27 {
                 sum += arr[i][j];
             } 
         }
+        // Divide by the six elements to calculate their integer average.
         System.out.println("The avarage is: " + sum/6);
     }
 }

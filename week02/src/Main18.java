@@ -4,6 +4,7 @@ public class Main18 {
     public static void main(String[] args) {
         // The inner loop runs four times for each outer-loop iteration.
         int i, j;
+        // Repeat the complete inner loop three times.
         for(i = 0; i <= 2; i++){
             System.out.println("Outer loop start:");
 

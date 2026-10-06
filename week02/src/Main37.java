@@ -14,6 +14,7 @@ public class Main37 {
         sc.close();
     }
     static void evenOdd(int x){
+        // An even number has no remainder when divided by 2.
         if(x%2 == 0)
             System.out.println("The number is Even!");
         else

@@ -9,6 +9,7 @@ public class Main26 {
             for(int j = 0; j < 3; j++){
                 System.out.print(arr[i][j] + " ");
             }
+            // Move to a new line after finishing the current row.
             System.out.println();
         }
     }

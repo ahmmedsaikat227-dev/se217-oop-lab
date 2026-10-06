@@ -4,6 +4,7 @@ public class Main13 {
     public static void main(String[] args) {
         // Add only numbers in the range divisible by both 3 and 5.
         int sum = 0;
+        // Start the running total at zero before checking each number.
         for(int i = 30; i <= 120; i++){
             if(i % 3 == 0 && i % 5 == 0){
                 sum += i;

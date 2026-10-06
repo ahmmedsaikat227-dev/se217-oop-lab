@@ -6,9 +6,11 @@ public class Main31 {
         String s = "I love Bangladesh";
 
         String[] a = s.split(" ");   //both use for space
+        // The regex whitespace character class can match tabs as well as spaces.
         String[] b = s.split("\\s"); 
 
 
+        // Both loops display the words produced by their respective split calls.
         for(int i = 0; i < a.length; i++){
             System.out.println(a[i]);
         }

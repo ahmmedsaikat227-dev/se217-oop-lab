@@ -7,6 +7,7 @@ public class Main30 {
 
         String[] a = s.split("@");
 
+        // Print each part returned by split on its own line.
         for(int i = 0; i < a.length; i++){
             System.out.println(a[i]);
         }

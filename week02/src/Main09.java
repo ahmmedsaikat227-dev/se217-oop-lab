@@ -9,6 +9,7 @@ public class Main09 {
         System.out.println(x++); 
         System.out.println(++x);
 
+        // Reset x so the decrement examples start from the same value.
         x = 5;
 
         System.out.println(x--);

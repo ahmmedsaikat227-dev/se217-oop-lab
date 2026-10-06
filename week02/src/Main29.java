@@ -13,6 +13,7 @@ public class Main29 {
         String s1 = "Dhaka";
         String s2 = "dhaka";
 
+        // equals is case-sensitive, so these differently cased strings do not match.
         if(s1.equals(s2)){
             System.err.println("Equal");
         }

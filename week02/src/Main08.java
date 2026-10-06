@@ -6,6 +6,7 @@ public class Main08{
         int x;
         x = 5;
 
+        // Match x against the listed choices and use default for other values.
         switch (x) {
             case 1:
                 System.out.println("Bangladesh");

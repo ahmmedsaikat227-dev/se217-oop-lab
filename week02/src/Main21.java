@@ -13,6 +13,7 @@ public class Main21 {
         int x = a[0] + a[2];
         System.out.println("Value of X: " + x);
 
+        // Change one element, then calculate the sum again to see the effect.
         a[2] = 100;
         x = a[0] + a[2];
         System.out.println("Value of X: " + x);

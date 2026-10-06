@@ -6,6 +6,7 @@ public class Main11 {
         for(int i = 1; i <=10; i++){
             System.out.println(i);
 
+            // Check after printing so 5 is included before the loop stops.
             if(i == 5){
                 break;
             }

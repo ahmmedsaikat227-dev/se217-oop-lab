@@ -7,6 +7,7 @@ public class Main15 {
 
         while(i <= 100){
             sum += i;
+            // Skip directly to the next multiple of 5.
             i+=5;
         }
         System.out.println("The sum is: " + sum);

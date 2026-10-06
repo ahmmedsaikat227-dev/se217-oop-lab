@@ -7,6 +7,7 @@ public class Main32 {
 
         String[] a = s.split("\\s+"); // (\\s+) use for find multiple spaces
 
+        // Each array element contains one word, regardless of repeated spaces.
         for(int i = 0; i < a.length; i++){
             System.out.println(a[i]);
         }
