@@ -2,6 +2,7 @@ package main;
 
 public class Main09 {
     public static void main(String[] args) {
+        // Compare how prefix and postfix operators change the printed value.
         int x = 5;
 
         

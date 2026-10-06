@@ -2,6 +2,7 @@ package main;
 
 public class Main02 {
     public static void main(String[] args) {
+        // These variables demonstrate values stored in different data types.
         int x;
         float y;
         char z;

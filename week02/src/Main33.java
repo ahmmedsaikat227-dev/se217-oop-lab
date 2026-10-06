@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main33 {
     public static void main(String[] args) {
+        // nextInt reads the next integer token entered by the user.
         Scanner sc = new Scanner(System.in);
         
         int x;

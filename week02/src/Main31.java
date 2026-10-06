@@ -2,6 +2,7 @@ package main;
 
 public class Main31 {
     public static void main(String[] args) {
+        // Both delimiters split on whitespace; one is literal and one is a regex.
         String s = "I love Bangladesh";
 
         String[] a = s.split(" ");   //both use for space

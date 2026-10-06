@@ -2,6 +2,7 @@ package main;
 
 public class Main01 {
     public static void main(String[] args){
+        // Escape sequences add a tab and line break to console output.
         System.out.print("Hi\t");
         System.out.print("I am Saikat.\n");
         System.out.println("I am from SWE.");

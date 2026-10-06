@@ -2,6 +2,7 @@ package main;
 
 public class Main21 {
     public static void main(String[] args) {
+        // Array positions start at 0, and changing an element affects later reads.
         int[] a = new int[5];
         a[0] = 10;
         a[1] = 20;

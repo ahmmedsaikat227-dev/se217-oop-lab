@@ -8,7 +8,7 @@ public class Main34 {
         System.out.print("Enter s1: ");
         String s1 = sc.nextLine(); //full line
         System.out.print("Enter s2: ");
-        String s2 = sc.next(); //only one word
+        String s2 = sc.next(); // Read the next whitespace-delimited token.
 
         System.out.println("s1 = " + s1);
         System.out.println("s2 = " + s2);

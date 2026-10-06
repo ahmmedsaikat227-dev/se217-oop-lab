@@ -2,6 +2,7 @@ package main;
 
 public class Main22 {
     public static void main(String[] args) {
+        // Use length for the item count and zero-based indices to access values.
         int[] x = {11, 34, 55, -67, 57};
         System.out.println("The length of array X: " + x.length);
         System.out.println("The value of index 0: " + x[0]);

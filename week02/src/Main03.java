@@ -2,6 +2,7 @@ package main;
 
 public class Main03 {
     public static void main(String[] args) {
+    // Convert before division so the average can include a fractional part.
     int a, b, c;
     a = 15;
     b = 22;

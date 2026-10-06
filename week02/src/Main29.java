@@ -2,6 +2,7 @@ package main;
 
 public class Main29 {
     public static void main(String[] args) {
+        // String methods inspect text, and equals compares case-sensitive content.
         String s = "Dhaka, Bangladesh";
         
         System.out.println(s.length());

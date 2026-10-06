@@ -2,6 +2,7 @@ package main;
 
 public class Main08{
     public static void main(String[] args) {
+        // Each case handles one value; default handles values with no match.
         int x;
         x = 5;
 

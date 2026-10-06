@@ -2,6 +2,7 @@ package main;
 
 public class Main36 {
     public static void main(String[] args) {
+        // Call a helper method defined below main.
         hello();
     }
     static void hello(){

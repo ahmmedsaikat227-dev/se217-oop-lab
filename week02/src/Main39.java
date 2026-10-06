@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main39 {
     public static void main(String[] args) {
+        // Choose an operation, then use its helper method to calculate the result.
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter x: ");

@@ -2,6 +2,7 @@ package main;
 
 public class Main35 {
     public static void main(String[] args) {
+        // getSum returns a value, while sayHi performs an action without one.
         System.out.println("Program start: ");
         sayHi();
 

@@ -2,6 +2,7 @@ package main;
 
 public class Main07 {
     public static void main(String[] args) {
+        // The first matching age range determines the label.
         int age;
         age = 20;
 

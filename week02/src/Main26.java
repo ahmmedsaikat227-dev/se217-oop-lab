@@ -2,6 +2,7 @@ package main;
 
 public class Main26 {
     public static void main(String[] args) {
+        // The outer loop selects rows; the inner loop visits each column.
         int[][] arr = {{10,20,30} , {40,50,60}};
 
         for(int i = 0; i < 2; i++){

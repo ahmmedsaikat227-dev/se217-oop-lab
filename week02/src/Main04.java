@@ -2,6 +2,7 @@ package main;
 
 public class Main04 {
     public static void main(String[] args) {
+        // && requires both tests; || requires at least one test to pass.
         int x = 22;
         if(x % 2 == 0 && x % 5 == 0){
             System.out.println("Hi");

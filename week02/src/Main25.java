@@ -2,7 +2,7 @@ package main;
 
 public class Main25 {
     public static void main(String[] args) {
-        
+        // A two-dimensional array is accessed with a row index and a column index.
         int[][] arr = new int[2][3];
         arr[1][0] = 10;
         arr[1][1] = 20;
